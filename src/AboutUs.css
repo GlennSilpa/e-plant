@@ -1,33 +1,72 @@
+/* General container styling */
 .about-us-container {
-    width: 1000px;
-    /* margin: 0 auto; */
-    /* padding: 20px; */
-    /* background-color: red; */
-    text-align: justify;
-  }
-  
-  .about-us-heading {
-    font-size: 32px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .about-us-description {
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  
-  .about-us-content {
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
-  .plant_logo_right{
-    text-align: right;
+  max-width: 700px; /* Limits width but keeps responsiveness */
+  width: 90%; /* Allows shrinking on smaller screens */
+  margin: 0 auto; /* Centers the container */
+  text-align: justify;
+}
+
+/* Heading styles */
+.about-us-heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center; /* Centering the heading */
+}
+
+/* Description styles */
+.about-us-description {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+  text-align: center; /* Centering the description */
+}
+
+/* Content styling */
+.about-us-content {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Center "Plant" in the app bar */
+.appbar-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Adjust product category titles */
+.product-category-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Ensure logo alignment works */
+.plant_logo_right {
+  text-align: right;
+  display: block;
+}
+
+.plant_logo_left {
+  text-align: left;
+  display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-us-container {
+      width: 95%; /* Takes more space on smaller screens */
+      text-align: left; /* Better readability */
   }
 
-  .plant_logo_left{
-    text-align: left;
+  .appbar-title {
+      font-size: 20px; /* Slightly smaller for mobile */
   }
+
+  .product-category-title {
+      font-size: 20px; /* Adjusted size */
+  }
+}
