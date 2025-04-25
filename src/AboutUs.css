@@ -58,15 +58,15 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .about-us-container {
-      width: 95%; /* Takes more space on smaller screens */
-      text-align: left; /* Better readability */
+    width: 95%; /* Takes more space on smaller screens */
+    text-align: left; /* Better readability */
   }
 
   .appbar-title {
-      font-size: 20px; /* Slightly smaller for mobile */
+    font-size: 20px; /* Slightly smaller for mobile */
   }
 
   .product-category-title {
-      font-size: 20px; /* Adjusted size */
+    font-size: 20px; /* Adjusted size */
   }
 }
